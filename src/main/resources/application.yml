@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+homedrive:
+  root: "./data"
+  tmpDir: "${homedrive.root}/tmp"
+  objectsDir: "${homedrive.root}/objects"
+  defaultChunkSize: 4194304   # 4 MiB
